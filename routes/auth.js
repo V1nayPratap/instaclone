@@ -109,6 +109,7 @@ router.post('/reset-password',(req,res)=>{
                     <p>You requested for password reset</p>
                     <h5>click in this <a href="${EMAIL}/reset/${token}">link</a> to reset password</h5>
                     `
+                    //use for developer side:https://vinayinstaclone.herokuapp.com
                 })
                 res.json({message:"check your email"})
             })
